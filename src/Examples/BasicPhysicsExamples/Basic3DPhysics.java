@@ -1,4 +1,4 @@
-package Structures.Physics.UniversePhysics.BasicPhysicsExamples;
+package Examples.BasicPhysicsExamples;
 
 
 import Structures.Physics.UniversePhysics.ElemenetaryParticlePhysics;

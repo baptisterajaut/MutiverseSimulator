@@ -2,8 +2,8 @@ package Examples;
 
 import Structures.Physics.MultiversePhysics.Multiverse;
 import Structures.Physics.MultiversePhysics.MultiversePhysics;
-import Structures.Physics.UniversePhysics.BasicPhysicsExamples.Basic2DPhysics;
-import Structures.Physics.UniversePhysics.BasicPhysicsExamples.Basic3DPhysics;
+import Examples.BasicPhysicsExamples.Basic2DPhysics;
+import Examples.BasicPhysicsExamples.Basic3DPhysics;
 
 import java.util.ArrayList;
 
