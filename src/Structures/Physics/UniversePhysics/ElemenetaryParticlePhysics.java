@@ -1,11 +1,11 @@
-package Physics.BasePhysics;
+package Structures.Physics.UniversePhysics;
 
-import Physics.Physics;
+import Structures.Physics.Physics;
 
 import java.util.List;
 
 /**
- * Physics for elemntayParticles
+ * Structures for elemntayParticles
  */
 public interface ElemenetaryParticlePhysics extends Physics {
 
@@ -26,12 +26,14 @@ public interface ElemenetaryParticlePhysics extends Physics {
 
     /**
      * List characteristics of a point for theses physics
+     *
      * @return
      */
     String[] listPointCharacteritics();
 
     /**
      * Utility : Two elementaryParticles are at the same spot?
+     *
      * @param a
      * @param b
      * @return true if their position is equals

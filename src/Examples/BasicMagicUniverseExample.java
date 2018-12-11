@@ -1,16 +1,17 @@
-package Examples.BasicExamples;
+package Examples;
 
-import Physics.BasePhysics.ElemenetaryParticlePhysics;
-import Physics.BasePhysics.ElementaryParticle;
-import Physics.BasePhysics.Universe;
+
+import Structures.Physics.UniversePhysics.ElemenetaryParticlePhysics;
+import Structures.Physics.UniversePhysics.ElementaryParticle;
+import Structures.Physics.UniversePhysics.Universe;
 
 import java.util.ArrayList;
 
-public class BasicMagicUniverse extends Universe {
+public class BasicMagicUniverseExample extends Universe {
 
     private int magicAmount;
 
-    public BasicMagicUniverse(ElemenetaryParticlePhysics physics, int size) {
+    public BasicMagicUniverseExample(ElemenetaryParticlePhysics physics, int size) {
         super(physics);
         magicAmount = 100;
 

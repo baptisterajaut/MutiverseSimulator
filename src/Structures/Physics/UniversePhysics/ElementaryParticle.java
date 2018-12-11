@@ -1,4 +1,4 @@
-package Physics.BasePhysics;
+package Structures.Physics.UniversePhysics;
 
 import java.util.HashMap;
 

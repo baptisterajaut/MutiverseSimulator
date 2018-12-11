@@ -1,6 +1,7 @@
-package Examples.BasicExamples;
+package Structures.Physics.UniversePhysics.BasicPhysicsExamples;
 
-import Physics.BasePhysics.ElemenetaryParticlePhysics;
+
+import Structures.Physics.UniversePhysics.ElemenetaryParticlePhysics;
 
 public class Basic3DPhysics extends BasicNDPhysics {
 

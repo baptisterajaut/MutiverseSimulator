@@ -1,7 +1,8 @@
-package Examples.BasicExamples;
+package Structures.Physics.UniversePhysics.BasicPhysicsExamples;
 
-import Physics.BasePhysics.ElementaryParticle;
-import Physics.BasePhysics.ElemenetaryParticlePhysics;
+
+import Structures.Physics.UniversePhysics.ElemenetaryParticlePhysics;
+import Structures.Physics.UniversePhysics.ElementaryParticle;
 
 import java.util.ArrayList;
 import java.util.List;

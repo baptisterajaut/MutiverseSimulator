@@ -1,9 +1,10 @@
-import Examples.MagicUniversesInteract;
-import Simulation.MagicMultiverseExample;
+import Examples.MagicMultiversePhysicsExample;
+import Examples.MultiverseExample;
 
 public class Main {
     public static void main(String[] args) {
-        MagicMultiverseExample simulation = new MagicMultiverseExample(MagicUniversesInteract.getPhysics());
-        simulation.runThemAll();
+        MultiverseExample simulation = new MultiverseExample(MagicMultiversePhysicsExample.getPhysics());
+        for (int i = 0; i < 5; i++)
+            simulation.doOneClick();
     }
 }
