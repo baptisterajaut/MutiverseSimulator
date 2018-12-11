@@ -1,4 +1,4 @@
-import Physics.MagicMultiverseExample;
+import Simulation.MagicMultiverseExample;
 import Physics.MultiversePhysics.MagicUniversesInteract;
 
 public class Main {

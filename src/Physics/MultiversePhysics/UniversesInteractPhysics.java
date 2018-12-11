@@ -1,6 +1,6 @@
 package Physics.MultiversePhysics;
 
-import Physics.BasePhysics.Physics;
+import Physics.Physics;
 import Physics.BasePhysics.Universe;
 
 import java.util.List;

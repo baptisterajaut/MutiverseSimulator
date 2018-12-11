@@ -1,5 +1,7 @@
 package Physics.BasePhysics;
 
+import Physics.Physics;
+
 import java.util.List;
 
 public interface BasePhysics extends Physics {

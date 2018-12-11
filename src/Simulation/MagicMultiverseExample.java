@@ -1,4 +1,4 @@
-package Physics;
+package Simulation;
 
 import Physics.BasePhysics.Universe;
 import Physics.Basic.Basic2DPhysics;
