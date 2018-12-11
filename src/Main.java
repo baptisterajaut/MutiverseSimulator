@@ -1,9 +1,9 @@
-import Physics.MultiverseExample;
+import Physics.MagicMultiverseExample;
 import Physics.MultiversePhysics.MagicUniversesInteract;
 
 public class Main {
     public static void main(String[] args){
-        MultiverseExample simulation=new MultiverseExample(MagicUniversesInteract.getPhysics());
+        MagicMultiverseExample simulation=new MagicMultiverseExample(MagicUniversesInteract.getPhysics());
         simulation.runThemAll();
     }
 }
