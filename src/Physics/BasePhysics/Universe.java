@@ -2,29 +2,39 @@ package Physics.BasePhysics;
 
 import java.util.ArrayList;
 
+/**
+ * Collection of particles that interact to each others
+ */
 public abstract class Universe {
-    private BasePhysics physics;
-    protected ArrayList<Point> points;
+    /**
+     * Elementary particles of the universe
+     */
+    protected ArrayList<ElementaryParticle> elementaryParticles;
+    /**
+     * Physics engine of that universe
+     */
+    private ElemenetaryParticlePhysics physics;
 
-    public void interactAll() {
-        ArrayList<Point> newPoints = new ArrayList<>(points);
-        for (Point p1 : points) {
-            for (Point p2 : points) {
-
-                if (p1 == p2) continue;
-                newPoints.remove(p1);
-                newPoints.remove(p2);
-                newPoints.addAll(physics.interact(p1, p2));
-            }
-        }
-        points = newPoints;
-    }
-
-    protected Universe(BasePhysics physics) {
+    protected Universe(ElemenetaryParticlePhysics physics) {
         this.physics = physics;
     }
 
-    public ArrayList<Point> getPoints() {
-        return points;
+    public void doOneClick() {
+        ArrayList<ElementaryParticle> newElementaryParticles = new ArrayList<>(elementaryParticles);
+        for (ElementaryParticle p1 : elementaryParticles) {
+            physics.aloneBehiavor(p1);
+            for (ElementaryParticle p2 : elementaryParticles) {
+
+                if (p1 == p2) continue;
+                newElementaryParticles.remove(p1);
+                newElementaryParticles.remove(p2);
+                newElementaryParticles.addAll(physics.interact(p1, p2));
+            }
+        }
+        elementaryParticles = newElementaryParticles;
+    }
+
+    public ArrayList<ElementaryParticle> getElementaryParticles() {
+        return elementaryParticles;
     }
 }
